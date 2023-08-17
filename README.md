@@ -1,1 +1,1 @@
-# HELPMATE-A-crop-suggestion-website
+# HELPMATE, A crop suggestion website
