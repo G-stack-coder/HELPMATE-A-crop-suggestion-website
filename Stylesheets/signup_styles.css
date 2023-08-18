@@ -1,0 +1,116 @@
+body {
+    background: url('http://localhost/HELPMATE/Resources/main_img(2)_ed23.jpg');
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.main_container {
+    width: 1100px;
+    height: 800px;
+    margin: 8px auto;
+    margin-left: 2%;
+    display: flex;
+    background-color: transparent;
+}
+
+.signin {
+    width: 800px;
+    height: 900px;
+}
+
+form h1 {
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+}
+
+form {
+    width: 400px;
+    margin: 40px auto;
+}
+
+.lb {
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.opt {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(0.9);
+}
+
+::placeholder {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.8);
+    opacity: 0.6;
+}
+
+.notop {
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+    font-weight: bold;
+    width: 180px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 120px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    width: 200px;
+    height: 60px;
+    margin-left: 110px;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    margin-left: 122px;
+    opacity: 0.7;
+}
+
+a:hover {
+    font-size: 28px;
+    margin-left: 96px;
+    transition: 0.3s;
+    opacity: 1;
+}

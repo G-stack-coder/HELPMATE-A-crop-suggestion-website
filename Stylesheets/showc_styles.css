@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.imgc {
+    width: 100%;
+    height: inherit;
+    padding: 5%;
+    background-image: url('http://localhost/HELPMATE/Resources/main_img(2)_ed23.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.search {
+    position: relative;
+    top: 70px;
+    width: 1300px;
+    height: 200px;
+}
+
+.search input {
+    position: relative;
+    bottom: 10px;
+    background: transparent;
+    font-style: italic;
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 680px;
+    margin-left: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: rgba(255,255,255,0.8);
+}
+
+.search button img {
+    width: 25px;
+    position: relative;
+    bottom: 5px;
+    margin-left: 1px;
+    margin-right: 20px;
+}
+
+.search button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    cursor: pointer;
+}
+
+::placeholder {
+
+    font-style: italic;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Popins', sans-serif;
+}
+
+form {
+    width: 800px;
+    height: 70px;
+    background: rgba(0, 0, 0,0.8);
+    margin-top: 1%;
+    margin-top: 20px;
+    margin-bottom: 1%;
+    margin-left: 2%;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.resp {
+    width: 700px;
+    height: inherit;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 25%;
+    background: rgba(0,0,3,0.7);
+}
+
+h1 {
+    font-weight: bolder;
+    position: relative;
+    text-transform: capitalize;
+    top: 10px;
+    left: 36px;
+    letter-spacing: 0.1rem;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Noto San TC', sans-serif;
+}
+.resp h1, h2,h3 {
+    margin: 5px auto;
+    opacity: 1;
+    font-weight: bolder;
+    position: relative;
+    text-transform: capitalize;
+    top: 10px;
+    left: 16%;
+    letter-spacing: 0.1rem;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Noto San TC', sans-serif;
+}
+
+.resp h2 {
+    left: 46%;
+}
+
+.resp h3 {
+    font-weight: normal;
+    top: 15px;
+    left: 30px;
+}
+.resp p {
+    color: rgba(255,255,255,0.8);
+    line-height: 1.9em;
+    margin: 1px auto;
+    font-size: 22px;
+    font-weight: bolder;
+    font-weight: 300;
+    padding: 21px;
+    opacity: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_bar li {
+    position: relative;
+    left: 60px;
+    top: -50px;
+}
+
+.nav_bar li {
+    display: inline-block;
+}
+
+.nav_bar li a {
+    font-size: 25px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Varela Round',sans-serif;
+    padding: 8px;
+}
+
+.nav_bar {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.nav_bar li a:hover {
+    color: rgba(255,255,255,1);
+    background-color: #7b6d32;
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+#lo {
+    font-size: medium;
+}
+
+ol {
+    position: relative;
+    left: 5%;
+}
+
+li {
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    letter-spacing: 0.1rem;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Noto San TC', sans-serif;       
+}
+
+ol>li {
+    left: 45px;   
+}
+
+table tr{
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 50px;
+    position: relative;
+    top: 10px;
+    left: 45px;
+    letter-spacing: 0.1rem;
+    color: rgba(255,255,255,0.8);
+    font-family: 'Noto San TC', sans-serif;        
+}
+

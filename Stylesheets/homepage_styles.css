@@ -1,0 +1,304 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+}
+
+header {
+    background: url('http://localhost/HELPMATE/Resources/main_img(2)_ed23.jpg');
+    height: 950px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav_bar {
+    float: right;
+    margin-right: 30px;
+
+}
+
+.nav_bar li {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+}
+
+.nav_bar li a {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Varela Round', sans-serif;
+    padding: 8px;
+}
+
+#lo {
+    font-size: medium;
+}
+
+.content {
+    float: left;
+    margin-left: 5%;
+    margin-top: 120px;
+    width: 1500px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-family: 'Noto Sans TC', sans-serif;
+    display: inline;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.content h2 {
+    margin: 10px auto;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Poiret One', cursive;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.content p {
+    padding: 8px;
+    word-spacing: 0.8rem;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.8);
+    width: 600px;
+    font-family: 'Srisakdi', cursive;
+    margin-top: 50px;
+    margin-left: 40%;
+
+}
+
+main {
+    height: 1500px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+.main_content {
+    width: 1410px;
+    height: 500px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#mc {
+    text-transform: capitalize;
+    justify-content: center;
+    word-spacing: 0.2rem;
+    margin-bottom: 40px;
+    font-family: 'Varela Round', sans-serif;
+    color: #a8af20;
+    line-height: 2.8rem;
+    width: 1000px;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+}
+
+.features {
+    width: 100%;
+    position: relative;
+    left: -30px;
+    height: 1000px;
+    margin: 20px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.features h3 {
+    width: 100%;
+    margin-left: 2%;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+    color: #2b2b2b;
+}
+
+.feature {
+    margin: 10px auto;
+    width: 60%;
+    height: 300px;
+    margin-left: 22%;
+}
+
+.feature h2 {
+    text-align: center;
+}
+
+.feature p {
+    margin-top: 5px;
+    width: 60%;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.feature h4 {
+    text-align: center;
+    font-size: 50px;
+}
+
+button {
+    font-weight: bold;
+    width: 180px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: 410px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    background-color: purple;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*========================================FOOTER STYLES============================================================ */
+.container {
+    max-width: 1586px;
+    margin: auto;
+}
+
+.row {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: auto;
+    line-height: 1.5;
+    background: url('http://localhost/HELPMATE/Resources/main_img(2)_ed23.jpg');
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 22px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    background-color: purple;
+    height: 4px;
+    box-sizing: border-box;
+    width: 70px;
+
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li:hover {
+    color: #fff;
+    padding-left: 8px;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+    padding-left: 8px;
+}
+
+strong {
+    size: 30px;
+}
+
+.footer-col .sicons a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .sicons a:hover {
+    background-color: #fff;
+}
+
+#twt:hover {
+    color: #1DA1F2;
+}
+
+#inst:hover {
+    color: #fb3958;
+}
+
+#fac:hover {
+    color:#3b5998;
+}
+#link:hover {
+    color: #0077b5;
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}

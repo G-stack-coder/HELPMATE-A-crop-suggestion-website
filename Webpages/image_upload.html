@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://localhost/HELPMATE/Stylesheets/image_upload_styles.css" />
+    <link rel="icon" href="login_icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Lobster+Two:ital@1&family=Noto+Sans+TC&family=Poiret+One&family=Poppins:wght@300&family=Srisakdi&family=Tangerine:wght@700&family=Varela+Round&display=swap"
+        rel="stylesheet" />
+    <title>Upload Crop Image</title>
+</head>
+
+<body>
+    <!-- <div class="nav_bar">
+        <ul>
+            <li><a href="https://mkisan.gov.in">NEWS</a></li>
+            <li><a href="http://localhost/HELPMATE/Webpages/homepage.html">HOME</a></li>
+            <li><a href="http://localhost/HELPMATE/Webpages/login.html" id="lo">LOGOUT</a></li>
+        </ul>
+    </div> -->
+    <div class="main_container">
+        <div class="forgot">
+            <form action="http://localhost/HELPMATE/Phppages/image_read.php" , method="post", enctype="multipart/form-data">
+                <h1>Don't Worry</h1>
+                <h2>If you don't know the disease name, Please upload an image of the crop</h2>
+
+                <label for="fn" class="lb">NAME</label>
+                <input type="text" name="fname" id="fn" class="notop" placeholder="enter here..." />
+
+                <label for="p">Share a photo of your Crop!</label>
+                <input type="file" name="mp" id="p">
+
+                <input type="submit" name="img" id="sub" value="Upload Image" class="button" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

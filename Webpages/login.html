@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="http://localhost/HELPMATE/Stylesheets/login_styles.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="login">
+        <form action="http://localhost/HELPMATE/Phppages/login.php" method="POST">
+          <h1>WELCOME BACK!</h1>
+          <label for="fn">NAME</label>
+          <input type="text" name="fname" id="fn" placeholder="enter here..."/>
+
+          <label for="pass">PASSWORD</label>
+          <input type="password" name="fpass" id="pass" placeholder="enter here..."/>
+
+          <label for="dob">DATE OF BIRTH</label>
+          <input type="date" name="fdob" id="dob" />
+
+          <input type="submit" name="" id="" value="LOGIN" class="button" />
+          <p><a href="http://localhost/HELPMATE/Webpages/sign_up.html">New user?</a></p>
+          <p>
+            <a href="http://localhost/HELPMATE/Webpages/forgot_password.html" id="sl"
+              >Forgot password?</a
+            >
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

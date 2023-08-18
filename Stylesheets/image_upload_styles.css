@@ -1,0 +1,162 @@
+body {
+    background: url('http://localhost/HELPMATE/Resources/main_img(2)_ed23.jpg');
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.main_container {
+    width: 2000px;
+    height: 650px;
+    margin: 5%;
+    position: relative;
+    left: -15%;
+    display: flex;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+/* ul {
+    list-style: none;
+}
+
+.nav_bar li {
+    position: relative;
+    left: 60px;
+    top: -50px;
+}
+
+.nav_bar li {
+    display: inline-block;
+}
+
+.nav_bar li a {
+    font-size: 25px;
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Varela Round',sans-serif;
+    padding: 8px;
+}
+
+.nav_bar {
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.nav_bar li a:hover {
+    color: rgba(255,255,255,1);
+    background-color: #7b6d32;
+    border-radius: 10px;
+    opacity: 0.9;
+} */
+
+.forgot {
+    width: 1800px;
+    height: 800px;
+}
+
+form h1 {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Lato', cursive;
+    font-size: 19px;
+    opacity: 0.9;
+    font-style: italic;
+    text-align: center;
+    font-weight: lighter;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    width: 320px;
+    margin: 100px auto;
+
+}
+
+form label {
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+::placeholder {
+    font-style: italic;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+input::-webkit-file-upload-button {
+    font-weight: bold;
+    background-color:
+        purple;
+    margin: 5px auto;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+input[type='file'] {
+    font-style: italic;
+}
+
+input::-webkit-file-upload-button:hover {
+    background-color:purple;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    font-size: 17px;
+    transition: 0.7s;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.button {
+    font-weight: bold;
+    width: 300px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 36px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    width: 450px;
+    height: 60px;
+    margin-left: -45px;
+    font-size: 20px;
+    transition: 0.7s;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="http://localhost/HELPMATE/Stylesheets/signup_styles.css" />
+    <title>SIGN UP!</title>
+  </head>
+
+  <body>
+    <div class="main_container">
+      <div class="signin">
+        <form action="http://localhost/HELPMATE/Phppages/connect.php" method = "POST">
+          <h1>WELCOME TO HELPMATE!</h1>
+          <label for="fn" class="lb">NAME</label>
+          <input
+            type="text"
+            name="fname"
+            id="fn"
+            class="notop"
+            placeholder="enter here..."
+          />
+
+          <label for="ph" class="lb">PHONE NUMBER</label>
+          <input
+            type="text"
+            name="fnumber"
+            id="ph"
+            class="notop"
+            .
+            placeholder="enter here..."
+          />
+
+          <label for="mail" class="lb">EMAIL-ID</label>
+          <input
+            type="mail"
+            name="fmail"
+            id="mail"
+            class="notop"
+            placeholder="enter here..."
+          />
+
+          <label for="dob" class="lb">DATE OF BIRTH</label>
+          <input type="date" name="fdob" id="dob" class="notop" />
+
+          <label for="loc" class="lb">DISTRICT</label>
+          <input
+            type="text"
+            name="floc"
+            id="loc"
+            class="notop"
+            placeholder="enter here..."
+          />
+
+          <p class="lb">FARMING METHOD</p>
+          <div class="opt">
+            <input type="radio" name="fmet" id="fm1" value="modern" />
+            <label for="fm1" class="op">MODERN</label>
+            <input type="radio" name="fmet" id="fm2" value="traditional" />
+            <label for="fm2" class="op">TRADITIONAL</label>
+          </div>
+
+          <p class="lb">IRRIGATION METHOD</p>
+          <div class="opt">
+            <input type="radio" name="firri" id="irm1" />
+            <label for="irm1" class="op">MODERN</label>
+            <input type="radio" name="firri" id="irm2" />
+            <label for="irm2" class="op">TRADITIONAL</label>
+          </div>
+
+          <label for="pass" class="lb">PASSWORD</label>
+          <input
+            type="password"
+            name="fpass"
+            id="pass"
+            class="notop"
+            placeholder="enter here..."
+          />
+
+          <input type="submit" name="signin" value="SIGN IN" class="button" />
+          <a href="http://localhost/HELPMATE/Webpages/login.html">Already Registered?</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
